@@ -19,6 +19,14 @@ Files added:
  - `AnagramGroups.java` - group anagrams together
  - `QuickSort.java` - in-place quicksort example
 
+Additional files added in the latest update:
+
+- `LRUCache.java` - simple LRU cache implementation (deque + hashmap)
+- `MinStack.java` - stack supporting getMin in O(1)
+- `DetectCycle.java` - detect cycle in linked list using Floyd's algorithm
+- `SerializeDeserializeBST.java` - serialize/deserialize a binary tree (preorder)
+- `GraphBFS.java` - BFS traversal example for a graph
+
 How to compile and run (Windows PowerShell):
 
 javac TwoSum.java ReverseString.java Fibonacci.java PalindromeNumber.java MergeIntervals.java BinarySearch.java ReverseLinkedList.java ValidParentheses.java TopKFrequent.java LongestUniqueSubstr.java AnagramGroups.java QuickSort.java
