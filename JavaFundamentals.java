@@ -1,15 +1,36 @@
+// This class demonstrates fundamental concepts of Java programming
 public class JavaFundamentals {
+    // Instance variables (attributes)
+    private String name;
+    private int age;
+
+    // Static (class) variable - shared by all instances
+    private static int instanceCount = 0;
+
+    // 1. Constructor - special method to initialize objects
+    public JavaFundamentals(String name, int age) {
+        this.name = name;  // 'this' refers to the current instance
+        this.age = age;
+        instanceCount++;   // Increment counter when object is created
+    }
+
+    // 2. Static method (belongs to class, not instances)
+    public static int getInstanceCount() {
+        return instanceCount;
+    }
+
+    // 3. Main method - entry point of the program
     public static void main(String[] args) {
-        // 1. What is Java?
-        System.out.println("1. Java is a high-level, class-based, object-oriented programming language");
+        // Introduction to Java
+        System.out.println("Java Fundamentals Tutorial");
+        System.out.println("=========================\n");
         
-        // 2. What are the main features of Java?
+        // Object-Oriented Programming (OOP) Concepts:
         /* 
-         * - Object-Oriented: Everything is an object
-         * - Platform Independent: Write once, run anywhere (WORA)
-         * - Secure: Runs in JVM sandbox
-         * - Robust: Strong type checking, exception handling
-         * - Multithreaded: Supports concurrent programming
+         * 1. Encapsulation: Bundling data and methods that operate on that data
+         * 2. Inheritance: Creating new classes based on existing ones
+         * 3. Polymorphism: Same interface, different implementations
+         * 4. Abstraction: Hiding complex implementation details
          */
 
         // 3. What are the basic data types in Java?
