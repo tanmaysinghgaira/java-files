@@ -65,21 +65,58 @@ public class JavaFundamentals {
             System.out.println("Minor");
         }
 
-        // For loop
+        // Different types of loops
+        System.out.println("\nLoop Examples:");
+        
+        // 1. For loop - when you know number of iterations
+        System.out.println("For Loop:");
         for (int i = 1; i <= 3; i++) {
             System.out.println("Iteration " + i);
         }
 
-        // While loop
+        // 2. While loop - when you don't know number of iterations
+        System.out.println("\nWhile Loop:");
         int counter = 0;
         while (counter < 3) {
             System.out.println("Counter: " + counter);
             counter++;
         }
 
-        // 7. What is an array?
+        // 3. Do-While loop - executes at least once
+        System.out.println("\nDo-While Loop:");
+        int num = 1;
+        do {
+            System.out.println("Number: " + num);
+            num++;
+        } while (num <= 3);
+
+        // 4. For-each loop - iterating over collections
+        System.out.println("\nFor-each Loop:");
         int[] numbers = {1, 2, 3, 4, 5};
-        String[] fruits = {"Apple", "Banana", "Orange"};
+        for (int number : numbers) {
+            System.out.println("Number is: " + number);
+        }
+
+        // Collections Framework
+        System.out.println("\nCollections Framework:");
+        
+        // ArrayList - dynamic array
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
+        System.out.println("ArrayList: " + fruits);
+
+        // HashSet - unique elements
+        HashSet<String> uniqueFruits = new HashSet<>(fruits);
+        System.out.println("HashSet (unique elements): " + uniqueFruits);
+
+        // HashMap - key-value pairs
+        HashMap<String, Integer> fruitPrices = new HashMap<>();
+        fruitPrices.put("Apple", 1);
+        fruitPrices.put("Banana", 2);
+        fruitPrices.put("Orange", 3);
+        System.out.println("HashMap: " + fruitPrices);
 
         // 8. What is a method?
         displayMessage("Hello, Java!");
