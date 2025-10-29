@@ -1,4 +1,8 @@
 // This class demonstrates fundamental concepts of Java programming
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class JavaFundamentals {
     // Instance variables (attributes)
     private String name;
