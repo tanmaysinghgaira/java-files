@@ -32,6 +32,15 @@ class Registration extends Frame implements ActionListener{
         t3 = new TextField();
         t4 = new TextField();
         t4.setEchoChar('*'); //mark password field
+
+
+        setVisible(true);
+
+
+    }
+    public static void main(String args[]){
+
+        Registration reg = new Registration();
     }
 
 }
