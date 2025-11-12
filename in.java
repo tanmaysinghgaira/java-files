@@ -28,7 +28,7 @@ class Rat extends  Animal{
 
 }
 
-public class in{
+public class In{
  public static void main(String[] args) {
     try {
         Rat rat = new Rat("BUDDY","HAMESTER");
