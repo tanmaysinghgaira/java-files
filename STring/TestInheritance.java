@@ -2,7 +2,7 @@ class Employee{
     String name;
     double salary;
 
-    public  Employee (String name, doubel salary){
+    public  Employee (String name, double salary){
         // Counstructor for employee
         this.name =name;
         this.salary = salary;
@@ -21,10 +21,10 @@ class manager extends  Employee{
 
     //Counstructor of Manage
 
-    public manager(String name, double salary,String department){
+    public manager(String name , double salary , String department){
 
         //call the super class constructor
-        super(name,salary);
+        super(name , salary);
         this.department= department;
 
     }
