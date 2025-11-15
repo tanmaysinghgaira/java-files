@@ -10,8 +10,8 @@ class Employee{
 
     //Method to display Emplaoyee details
     public void display(){
-        System.out.println("name"+ name);
-        System.out.println("Salary"+ salary);
+        System.out.println("name "+ name);
+        System.out.println("Salary "+ salary);
 
     }
 }
