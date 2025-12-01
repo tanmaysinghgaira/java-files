@@ -12,5 +12,6 @@ public class Awtpro {
     // List: A component that displays a list of items from which users can select one or more.
     // MenuBar, Menu, MenuItem: Components for creating menus in a window.
     // Canvas: A blank rectangular area where custom graphics can be drawn.
+    // Panel: A container that can hold and organize other AWT components.
 }
 
