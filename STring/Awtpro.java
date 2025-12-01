@@ -11,5 +11,6 @@ public class Awtpro {
     // RadioButton: A component that allows users to select one option from a group of choices.
     // List: A component that displays a list of items from which users can select one or more.
     // MenuBar, Menu, MenuItem: Components for creating menus in a window.
+    // Canvas: A blank rectangular area where custom graphics can be drawn.
 }
 
