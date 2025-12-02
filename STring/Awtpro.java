@@ -13,5 +13,6 @@ public class Awtpro {
     // MenuBar, Menu, MenuItem: Components for creating menus in a window.
     // Canvas: A blank rectangular area where custom graphics can be drawn.
     // Panel: A container that can hold and organize other AWT components.
+    // Scrollbar: A component that allows users to scroll through content that is too large to fit in the visible area.
 }
 
