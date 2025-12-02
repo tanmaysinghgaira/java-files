@@ -15,5 +15,6 @@ public class Awtpro {
     // Panel: A container that can hold and organize other AWT components.
     // Scrollbar: A component that allows users to scroll through content that is too large to fit in the visible area.
     // Dialog: A pop-up window that can be used to display messages or gather input from users.
+    // FileDialog: A dialog window that allows users to select files for opening or saving.
 }
 
