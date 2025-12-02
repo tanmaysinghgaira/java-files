@@ -16,5 +16,6 @@ public class Awtpro {
     // Scrollbar: A component that allows users to scroll through content that is too large to fit in the visible area.
     // Dialog: A pop-up window that can be used to display messages or gather input from users.
     // FileDialog: A dialog window that allows users to select files for opening or saving.
+    // GridBagLayout: A flexible layout manager that arranges components in a grid-like structure with varying sizes and alignments.
 }
 
