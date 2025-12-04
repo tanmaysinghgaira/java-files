@@ -19,5 +19,6 @@ public class Awtpro {
     // GridBagLayout: A flexible layout manager that arranges components in a grid-like structure with varying sizes and alignments.
     // FlowLayout: A simple layout manager that arranges components in a left-to-right flow, wrapping to the next line as needed.
     // BorderLayout: A layout manager that divides the container into five regions (north, south, east, west, and center) for placing components.
+    // CardLayout: A layout manager that allows multiple components to share the same display space, with only one visible at a time.
 }
 
