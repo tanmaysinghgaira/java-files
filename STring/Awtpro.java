@@ -18,5 +18,6 @@ public class Awtpro {
     // FileDialog: A dialog window that allows users to select files for opening or saving.
     // GridBagLayout: A flexible layout manager that arranges components in a grid-like structure with varying sizes and alignments.
     // FlowLayout: A simple layout manager that arranges components in a left-to-right flow, wrapping to the next line as needed.
+    // BorderLayout: A layout manager that divides the container into five regions (north, south, east, west, and center) for placing components.
 }
 
