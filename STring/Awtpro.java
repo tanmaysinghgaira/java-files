@@ -32,3 +32,5 @@ public class Awtpro {
 }
 //abstration in java
 //Abstraction is a fundamental concept in object-oriented programming that focuses on simplifying complex systems by hiding unnecessary details and exposing only the essential features.
+//In Java, abstraction is achieved through abstract classes and interfaces.
+//Abstract Classes: An abstract class is a class that cannot
