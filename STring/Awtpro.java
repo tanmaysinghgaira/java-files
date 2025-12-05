@@ -33,4 +33,6 @@ public class Awtpro {
 //abstration in java
 //Abstraction is a fundamental concept in object-oriented programming that focuses on simplifying complex systems by hiding unnecessary details and exposing only the essential features.
 //In Java, abstraction is achieved through abstract classes and interfaces.
-//Abstract Classes: An abstract class is a class that cannot
+//Abstract Classes: An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. It can contain both abstract methods (methods without a body) and concrete methods (methods with a body). Abstract classes are used to provide a common base for related classes while allowing them to implement specific behaviors.
+//Interfaces: An interface is a contract that defines a set of methods that a class must implement.
+//Interfaces do not contain any implementation details; they only specify method signatures. A class can implement multiple interfaces, allowing for greater flexibility and code reuse.
