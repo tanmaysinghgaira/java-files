@@ -20,5 +20,14 @@ public class Awtpro {
     // FlowLayout: A simple layout manager that arranges components in a left-to-right flow, wrapping to the next line as needed.
     // BorderLayout: A layout manager that divides the container into five regions (north, south, east, west, and center) for placing components.
     // CardLayout: A layout manager that allows multiple components to share the same display space, with only one visible at a time.
+    public static void main(String[] args) {
+        // AWT components are used to create graphical user interfaces (GUIs) in Java applications.
+        // They provide a way to interact with users through buttons, text fields, labels, and other visual elements.
+        // AWT components are part of the java.awt package and can be used to build desktop applications.
+        
+        // Example usage of AWT components can be found in various Java GUI applications.
+        // For instance, a simple calculator application might use buttons for digits and operations,
+        // a text field for displaying results, and labels for instructions.
+    }
 }
 
