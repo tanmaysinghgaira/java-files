@@ -30,4 +30,5 @@ public class Awtpro {
         // a text field for displaying results, and labels for instructions.
     }
 }
-
+//abstration in java
+//Abstraction is a fundamental concept in object-oriented programming that focuses on simplifying complex systems by hiding unnecessary details and exposing only the essential features.
