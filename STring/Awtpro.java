@@ -36,3 +36,35 @@ public class Awtpro {
 //Abstract Classes: An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. It can contain both abstract methods (methods without a body) and concrete methods (methods with a body). Abstract classes are used to provide a common base for related classes while allowing them to implement specific behaviors.
 //Interfaces: An interface is a contract that defines a set of methods that a class must implement.
 //Interfaces do not contain any implementation details; they only specify method signatures. A class can implement multiple interfaces, allowing for greater flexibility and code reuse.
+//Abstraction helps in reducing complexity, improving code maintainability, and enhancing the overall design of software systems by focusing on high-level concepts rather than low-level implementation details.
+//Example of Abstraction in Java:
+abstract class Animal { 
+    abstract void makeSound(); // Abstract method (no implementation)
+    void eat() { // Concrete method
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void makeSound() { // Implementing the abstract method
+        System.out.println("Woof");
+    }
+}   
+class Cat extends Animal {
+    void makeSound() { // Implementing the abstract method
+        System.out.println("Meow");
+    }
+}
+class Abstraction       
+{
+    public static void main(String[] args) {
+        Animal myDog = new Dog();
+        Animal myCat = new Cat();
+        
+        myDog.makeSound(); // Output: Woof
+        myDog.eat();       // Output: This animal eats food.
+        
+        myCat.makeSound(); // Output: Meow
+        myCat.eat();       // Output: This animal eats food.
+    }
+}
