@@ -68,3 +68,5 @@ class Abstraction
         myCat.eat();       // Output: This animal eats food.
     }
 }
+//In this example, the Animal class is abstract and defines an abstract method makeSound() and a concrete method eat().
+//The Dog and Cat classes extend the Animal class and provide       specific implementations for the makeSound() method.
