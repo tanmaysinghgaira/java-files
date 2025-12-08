@@ -71,3 +71,4 @@ class Abstraction
 //In this example, the Animal class is abstract and defines an abstract method makeSound() and a concrete method eat().
 //The Dog and Cat classes extend the Animal class and provide       specific implementations for the makeSound() method.
 //This demonstrates abstraction by allowing us to work with the Animal type without needing to know the specific details of each animal's sound implementation.
+//End of Abstraction in java
