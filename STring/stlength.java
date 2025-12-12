@@ -10,3 +10,5 @@ public class stlength {
     System.out.println(name.length());
 }
 }
+//End of file STring/stlength.java
+File: STring/TestInheritance.java
