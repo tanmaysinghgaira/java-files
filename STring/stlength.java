@@ -12,3 +12,22 @@ public class stlength {
 }
 //End of file STring/stlength.java
 File: STring/TestInheritance.java
+//Base class Employee
+package STring;
+class Employee{
+    String name;
+    double salary;
+
+    public  Employee (String name, double salary){
+        // Counstructor for employee
+        this.name =name;
+        this.salary = salary;
+    }
+
+    //Method to display Emplaoyee details
+    public void display(){
+        System.out.println("name "+ name);
+        System.out.println("Salary "+ salary);
+
+    }
+}       
