@@ -30,4 +30,4 @@ class Employee{
         System.out.println("Salary "+ salary);
 
     }
-}       
+}       //
